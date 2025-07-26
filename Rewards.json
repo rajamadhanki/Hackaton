@@ -1,0 +1,47 @@
+[
+  {
+    "_id": { "$oid": "66b1f7d00000000000000001" },
+    "userId": { "$oid": "66b1f1a00000000000000001" },
+    "eventId": { "$oid": "66b1f1b00000000000000001" },
+    "eventType": "Quiz",
+    "rewardType": "Badge",
+    "rewardDetails": "Top Scorer in JavaScript Basics Quiz",
+    "issuedAt": { "$date": "2025-07-10T11:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f7d00000000000000002" },
+    "userId": { "$oid": "66b1f1a00000000000000005" },
+    "eventId": { "$oid": "66b1f2d00000000000000005" },
+    "eventType": "Hackathon",
+    "rewardType": "Certificate",
+    "rewardDetails": "Winner of GreenTech Sustainability Hackathon",
+    "issuedAt": { "$date": "2025-08-28T09:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f7d00000000000000003" },
+    "userId": { "$oid": "66b1f1a00000000000000003" },
+    "eventId": { "$oid": "66b1f2d00000000000000002" },
+    "eventType": "Hackathon",
+    "rewardType": "Badge",
+    "rewardDetails": "Outstanding Blockchain Developer Award",
+    "issuedAt": { "$date": "2025-08-12T21:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f7d00000000000000004" },
+    "userId": { "$oid": "66b1f1a00000000000000004" },
+    "eventId": { "$oid": "66b1f2d00000000000000004" },
+    "eventType": "Hackathon",
+    "rewardType": "Monetary",
+    "rewardDetails": "$500 Cash Prize for FinTech Disruption Hackathon",
+    "issuedAt": { "$date": "2025-08-23T12:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f7d00000000000000005" },
+    "userId": { "$oid": "66b1f1a00000000000000002" },
+    "eventId": { "$oid": "66b1f1b00000000000000005" },
+    "eventType": "Quiz",
+    "rewardType": "Certificate",
+    "rewardDetails": "MongoDB Basics Quiz Completion Certificate",
+    "issuedAt": { "$date": "2025-07-14T12:30:00Z" }
+  }
+]

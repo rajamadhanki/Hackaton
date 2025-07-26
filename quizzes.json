@@ -1,0 +1,72 @@
+[
+  {
+    "_id": { "$oid": "66b1f1b00000000000000001" },
+    "title": "JavaScript Basics",
+    "description": "Test your knowledge of JS fundamentals",
+    "questions": [
+      { "questionText": "What is closure in JS?", "options": ["Scope", "Function", "Object", "Array"], "answer": "Function", "type": "MCQ", "difficulty": "Medium" },
+      { "questionText": "Which keyword declares a block-scoped variable?", "options": ["var", "let", "const", "define"], "answer": "let", "type": "MCQ", "difficulty": "Easy" }
+    ],
+    "timeLimit": 20,
+    "startTime": { "$date": "2025-07-10T10:00:00Z" },
+    "endTime": { "$date": "2025-07-10T10:30:00Z" },
+    "createdBy": { "$oid": "66b1f1a00000000000000002" },
+    "createdAt": { "$date": "2025-07-05T15:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1b00000000000000002" },
+    "title": "HTML5 Quiz",
+    "description": "Check your HTML5 knowledge",
+    "questions": [
+      { "questionText": "Which tag defines a navigation link?", "options": ["<nav>", "<header>", "<footer>", "<section>"], "answer": "<nav>", "type": "MCQ", "difficulty": "Easy" },
+      { "questionText": "Which attribute specifies an image source?", "options": ["src", "href", "alt", "link"], "answer": "src", "type": "MCQ", "difficulty": "Easy" }
+    ],
+    "timeLimit": 15,
+    "startTime": { "$date": "2025-07-11T09:00:00Z" },
+    "endTime": { "$date": "2025-07-11T09:20:00Z" },
+    "createdBy": { "$oid": "66b1f1a00000000000000002" },
+    "createdAt": { "$date": "2025-07-05T16:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1b00000000000000003" },
+    "title": "CSS Advanced",
+    "description": "Test CSS selectors and animations",
+    "questions": [
+      { "questionText": "Which property controls animations?", "options": ["animation", "transition", "keyframe", "transform"], "answer": "animation", "type": "MCQ", "difficulty": "Medium" },
+      { "questionText": "Which selector targets all paragraph elements inside a div?", "options": ["div > p", "div p", "p div", ".div p"], "answer": "div p", "type": "MCQ", "difficulty": "Medium" }
+    ],
+    "timeLimit": 25,
+    "startTime": { "$date": "2025-07-12T08:00:00Z" },
+    "endTime": { "$date": "2025-07-12T08:30:00Z" },
+    "createdBy": { "$oid": "66b1f1a00000000000000002" },
+    "createdAt": { "$date": "2025-07-06T12:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1b00000000000000004" },
+    "title": "Node.js Intermediate",
+    "description": "Server-side JS fundamentals",
+    "questions": [
+      { "questionText": "Which module is used for HTTP?", "options": ["fs", "http", "path", "os"], "answer": "http", "type": "MCQ", "difficulty": "Medium" },
+      { "questionText": "Which command initializes a Node.js project?", "options": ["npm start", "npm init", "node init", "npm install"], "answer": "npm init", "type": "MCQ", "difficulty": "Easy" }
+    ],
+    "timeLimit": 30,
+    "startTime": { "$date": "2025-07-13T10:00:00Z" },
+    "endTime": { "$date": "2025-07-13T10:40:00Z" },
+    "createdBy": { "$oid": "66b1f1a00000000000000002" },
+    "createdAt": { "$date": "2025-07-06T13:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1b00000000000000005" },
+    "title": "MongoDB Basics",
+    "description": "Learn MongoDB essentials",
+    "questions": [
+      { "questionText": "Which command lists all collections?", "options": ["show collections", "db.collections", "listCollections", "collections()"], "answer": "show collections", "type": "MCQ", "difficulty": "Easy" },
+      { "questionText": "Which operator is used for pattern matching?", "options": ["$like", "$regex", "$match", "$pattern"], "answer": "$regex", "type": "MCQ", "difficulty": "Medium" }
+    ],
+    "timeLimit": 10,
+    "startTime": { "$date": "2025-07-14T11:00:00Z" },
+    "endTime": { "$date": "2025-07-14T11:20:00Z" },
+    "createdBy": { "$oid": "66b1f1a00000000000000002" },
+    "createdAt": { "$date": "2025-07-07T14:00:00Z" }
+  }
+]
