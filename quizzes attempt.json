@@ -1,0 +1,58 @@
+
+[
+  {
+    "_id": { "$oid": "66b1f1c00000000000000001" },
+    "quizId": { "$oid": "66b1f1b00000000000000001" }, 
+    "userId": { "$oid": "66b1f1a00000000000000001" }, 
+    "responses": [
+      { "questionId": { "$oid": "66b1f1b00000000000000011" }, "selectedOption": "Function", "isCorrect": true, "timeTaken": 10 },
+      { "questionId": { "$oid": "66b1f1b00000000000000012" }, "selectedOption": "let", "isCorrect": true, "timeTaken": 8 }
+    ],
+    "score": 2,
+    "completedAt": { "$date": "2025-07-10T10:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1c00000000000000002" },
+    "quizId": { "$oid": "66b1f1b00000000000000002" },
+    "userId": { "$oid": "66b1f1a00000000000000005" },
+    "responses": [
+      { "questionId": { "$oid": "66b1f1b00000000000000021" }, "selectedOption": "<nav>", "isCorrect": true, "timeTaken": 6 },
+      { "questionId": { "$oid": "66b1f1b00000000000000022" }, "selectedOption": "href", "isCorrect": false, "timeTaken": 7 }
+    ],
+    "score": 1,
+    "completedAt": { "$date": "2025-07-11T09:12:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1c00000000000000003" },
+    "quizId": { "$oid": "66b1f1b00000000000000003" },
+    "userId": { "$oid": "66b1f1a00000000000000001" },
+    "responses": [
+      { "questionId": { "$oid": "66b1f1b00000000000000031" }, "selectedOption": "animation", "isCorrect": true, "timeTaken": 12 },
+      { "questionId": { "$oid": "66b1f1b00000000000000032" }, "selectedOption": "div p", "isCorrect": true, "timeTaken": 9 }
+    ],
+    "score": 2,
+    "completedAt": { "$date": "2025-07-12T08:22:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1c00000000000000004" },
+    "quizId": { "$oid": "66b1f1b00000000000000004" },
+    "userId": { "$oid": "66b1f1a00000000000000004" },
+    "responses": [
+      { "questionId": { "$oid": "66b1f1b00000000000000041" }, "selectedOption": "http", "isCorrect": true, "timeTaken": 15 },
+      { "questionId": { "$oid": "66b1f1b00000000000000042" }, "selectedOption": "npm install", "isCorrect": false, "timeTaken": 10 }
+    ],
+    "score": 1,
+    "completedAt": { "$date": "2025-07-13T10:25:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1c00000000000000005" },
+    "quizId": { "$oid": "66b1f1b00000000000000005" },
+    "userId": { "$oid": "66b1f1a00000000000000005" },
+    "responses": [
+      { "questionId": { "$oid": "66b1f1b00000000000000051" }, "selectedOption": "show collections", "isCorrect": true, "timeTaken": 5 },
+      { "questionId": { "$oid": "66b1f1b00000000000000052" }, "selectedOption": "$match", "isCorrect": false, "timeTaken": 8 }
+    ],
+    "score": 1,
+    "completedAt": { "$date": "2025-07-14T11:10:00Z" }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "_id": { "$oid": "66b1f1a00000000000000001" },
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "passwordHash": "hash1",
+    "role": "Participant",
+    "profile": { "bio": "Frontend Developer", "skills": ["HTML", "CSS"], "avatar": "avatar1.png" },
+    "badges": ["Top Scorer"],
+    "createdAt": { "$date": "2025-07-01T10:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1a00000000000000002" },
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "passwordHash": "hash2",
+    "role": "Admin",
+    "profile": { "bio": "Hackathon Organizer", "skills": ["Management", "Node.js"], "avatar": "avatar2.png" },
+    "badges": [],
+    "createdAt": { "$date": "2025-07-02T11:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1a00000000000000003" },
+    "name": "Clara Brown",
+    "email": "clara@example.com",
+    "passwordHash": "hash3",
+    "role": "Moderator",
+    "profile": { "bio": "Community Moderator", "skills": ["React", "UX"], "avatar": "avatar3.png" },
+    "badges": ["Helpful"],
+    "createdAt": { "$date": "2025-07-03T12:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1a00000000000000004" },
+    "name": "David Green",
+    "email": "david@example.com",
+    "passwordHash": "hash4",
+    "role": "Judge",
+    "profile": { "bio": "Tech Judge", "skills": ["Python", "AI"], "avatar": "avatar4.png" },
+    "badges": ["Expert Reviewer"],
+    "createdAt": { "$date": "2025-07-04T13:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "66b1f1a00000000000000005" },
+    "name": "Ella White",
+    "email": "ella@example.com",
+    "passwordHash": "hash5",
+    "role": "Participant",
+    "profile": { "bio": "Full Stack Developer", "skills": ["Node.js", "MongoDB"], "avatar": "avatar5.png" },
+    "badges": ["Fast Learner"],
+    "createdAt": { "$date": "2025-07-05T14:00:00Z" }
+  }
+]
